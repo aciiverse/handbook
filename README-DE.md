@@ -2,15 +2,15 @@
 
 The all-in-one aciiverse handbook for beginers, professionals and seniors. Optimized for aciiverse and cloud.
 
-> [Hier](./README-DE.md) ist die Dokumentation auch in deutsch.
+> [Here](./README.md) is the documentation also in english
 
-## Developers 🧑‍💻
+## Entwickelnde 🧑‍💻
 
 - [flwcii](https://flwcii.com)
 
 ---
 
-## Credits (sorted alphabetically) ✨
+## Credits (alphabetisch sortiert) ✨
 
 - [astrojs](https://astro.build)
 - [nodejs](https://nodejs.org/en)
@@ -23,8 +23,8 @@ The all-in-one aciiverse handbook for beginers, professionals and seniors. Optim
 
 - 🙂 aciiverse Docs
 - 📈 Best Practises
-- 📖 Documentions
-- 🧰 Recommended Tools
+- 📖 Dokumentationen
+- 🧰 Empfohlene Tools
 
 ---
 
@@ -40,7 +40,7 @@ The all-in-one aciiverse handbook for beginers, professionals and seniors. Optim
 
 ---
 
-## Setup & Installation ⚙️
+## Einrichtung & Installation ⚙️
 
 ```bash
 git clone https://github.com/aciiverse/handbook.git
