@@ -1,39 +1,41 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: aciiverse handbook
+description: Best practises, guides & cheat sheets aus den aciiverse Projekten
+template: splash
 hero:
-    tagline: Congrats on setting up a new Starlight project!
+    tagline: Projekt- & Code-Wissen aus dem aciiverse
     image:
-        file: ../../assets/houston.webp
+        file: ../../assets/aciiverse_logo.webp
     actions:
-        - text: Example Guide
-          link: /guides/example/
-          icon: right-arrow
-        - text: Read the Starlight docs
-          link: https://starlight.astro.build
-          icon: external
+        - text: Jetzt Starten
+          link: /start
+          icon: rocket
+        - text: Cheat Sheets
+          link: /cheat-sheets
+          icon: forward-slash
           variant: minimal
 ---
 
-import { Card, CardGrid } from "@astrojs/starlight/components";
+import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
 
-## Next steps
+## Was es hier gibt
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Docs" icon="open-book">
+		Grundlagen, Konzepte und Referenzen für aciiverse Projekte.
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a sidebar on this page.
+	<Card title="aciiverse Docs" icon="puzzle">
+		Konventionen, Patterns und Dinge, die sich bei aciiverse bewährt haben.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Best Practices" icon="star">
+		Bewährte Lösungen aus der Praxis - so machen wir das!
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Cheat Sheets" icon="forward-slash">
+		Kompakte Übersichten für den Alltag und schnelles Nachschlagen.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Guides" icon="right-arrow">
+		Schritt-für-Schritt-Anleitungen für typische Aufgaben.
 	</Card>
 </CardGrid>
+
+{/* ## Inhalte */}

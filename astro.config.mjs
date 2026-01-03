@@ -6,19 +6,89 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: "aciiverse handbook WIP",
+			title: "handbook",
+			favicon: "./favicon.ico",
+			logo: {
+				src: "./src/assets/aciiverse_logo.webp",
+				alt: "aciiverse handbook logo",
+			},
 			social: [{ icon: "github", label: "GitHub", href: "https://github.com/aciiverse/handbook" }],
 			sidebar: [
 				{
-					label: "Docs",
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: "Example Guide", slug: "guides/example" },
-					],
+					label: "Jetzt Starten 🚀",
+					link: "start",
 				},
 				{
-					label: "Reference",
-					autogenerate: { directory: "reference" },
+					label: "Architekturen 🏗️",
+					autogenerate: {
+						directory: "architectures",
+					},
+				},
+				{
+					label: "Systeme 🖥️",
+					autogenerate: {
+						directory: "systems",
+					},
+				},
+				{
+					label: "Git 🌱",
+					autogenerate: {
+						directory: "git",
+					},
+				},
+				{
+					label: "Sprachen 💬",
+					autogenerate: {
+						directory: "languages",
+					},
+				},
+				{
+					label: "Frameworks 🧩",
+					autogenerate: {
+						directory: "deployment",
+					},
+				},
+				{
+					label: "Datenbanken 🗄️",
+					autogenerate: {
+						directory: "databases",
+					},
+				},
+				{
+					label: "Container 📦",
+					autogenerate: {
+						directory: "containers",
+					},
+				},
+				{
+					label: "Deployment 🚀",
+					autogenerate: {
+						directory: "deployment",
+					},
+				},
+				{
+					label: "Tools 🧰",
+					autogenerate: {
+						directory: "tools",
+					},
+				},
+				{
+					label: "Templates 📄",
+					autogenerate: {
+						directory: "templates",
+					},
+				},
+				{
+					label: "Guides ➡️",
+					autogenerate: {
+						directory: "guides",
+					},
+				},
+				{
+					label: "Cheat Sheets ⚡",
+					autogenerate: {
+						directory: "cheat-sheets",
+					},
 				},
 			],
 		}),
