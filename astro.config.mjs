@@ -4,8 +4,7 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://aciiverse.github.io",
-	base: "/handbook/",
+	site: "https://handbook.aciiverse.com",
 	integrations: [
 		starlight({
 			title: "handbook",
